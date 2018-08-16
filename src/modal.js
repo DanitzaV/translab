@@ -42,6 +42,7 @@ window.saldo = (infoBip, selectinput) => {
     return saldo_final,window.mostrarTarifa(saldo_final, selectinput);
 }
 
+
 window.agregarTarjeta = () => {
     const numeroBip = icon_telephone.value;
     if (numeroBip == '' ) {
